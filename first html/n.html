@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title> E-Learning </title>
+<meta charset="utf-8">
+<meta name ="description" content = "e-learning">
+    <style type="text/css">
+        body{
+            margin:0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .container{
+            position: absolute;
+            left:0;
+            top:0;
+            width: 100%;
+            height: 100vh;
+            animation: animate 16s ease-in-out infinite;
+            background-size: cover;
+        }
+        .details{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% ,-50%);
+            text-align: center;
+        }
+        .details h4{
+            font-size:30px;
+            color:deeppink;
+        }
+         .details h1{
+             font-size: 50px;
+             color:deeppink
+        
+        }
+        .details h3{
+             font-size: 30px;
+             color:deeppink
+        
+        }
+         .menu{
+        width:100%;
+        height :100px;
+        background-color:rgba(0,0,0,0.5);
+    }
+    .leftmenu{
+        width:25%;
+       line-height: 60px;
+        float :left;
+    }
+    .leftmenu h4{
+        padding-left: 70px;
+        font-weight: bold;
+        color :deeppink;
+       font-size:25px;
+        font-family: 'Open Sans',sans-serif;
+    }
+    .rightmenu{
+        width :70%;
+        height: 100px;
+        float: right;
+    }
+    .rightmenu ul{
+        margin-left: 400px; 
+        text-transform: uppercase;
+    }
+    .rightmenu ul li{
+        font-family: 'Montserrat',sans-serif;
+         display: inline-block;
+        list-style: none;
+        font-size:15px;
+        color: white;
+        font-weight: bold;
+        line-height: 100px;
+        margin-left: 50px;    
+    }
+        .rightmenu ul li :hover{
+          color: deeppink;
+        }
+        
+        #first{
+        color :deeppink;
+    }
+      
+    #firstb{
+        background-color: transparent;
+        color:deeppink;
+        border:none;
+        font-size:12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 40px;
+        width: 150px;
+        font-family: 'Montserrat',sans-serif;
+        margin-top: 25px;
+        border:3px solid white;
+    }
+    #secondb{
+         background-color:transparent;
+        color:deeppink;
+        border:none;
+        font-size:12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 40px;
+        width: 150px;
+        font-family: 'Montserrat',sans-serif;
+        margin-top: 25px;
+        border:3px solid white;
+        
+    }  
+        
+        @keyframes animate{
+            0%,100%{
+                background-image:url(pic6.jpg);
+            
+        }
+            25%{
+                background-image:url(pic2.jpeg);
+            }
+    
+            50%{
+                background-image:url(pic3.jpeg);
+            }
+        75%{
+              background-image:url(pic1.jpeg);  
+            }
+            100%{
+              background-image:url(pic4.jpeg);  
+            }
+
+                
+            }
+        .outer {
+            position: absolute;
+           left:0;
+            top:0;
+            width: 100%;
+            height: 100vh;
+          
+        }
+         a:link,a:visited{
+            color:white;
+            border: none
+        }
+         a:link:hover,a:visited :hover{
+            color:white; 
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+              <div class="outer">
+            <div class="menu">
+        <div class ="leftmenu">
+            <h4>Techademics</h4>
+        </div>
+        <div class ="rightmenu">
+        <ul>
+          <li id="first" ><a href="https://www.facebook.com/"target="_blank">HOME</a>  </li>
+            <li ><a href="http://www.mediafire.com/file/1h9bbyvb452b5b3/ATARI.rar/file" target="_blank">log in</a>  </li>
+            <li><a href="https://www.pexels.com/search/learning/" target="_blank"> ABOUT US </a></li>
+            <li ><a href="https://www.pexels.com/@tirachard-kumtanom-112571" target="_blank">CONTACT</a> </li>
+             </ul>
+        </div>
+    </div>
+            
+            
+        
+            <div class="details">
+            <h4>an online video training courses school</h4>
+    <h1>CREATIVE & EXPERIENCED</h1>
+    <h3> we need to bring learning to people instead of people to learning</h3>
+          <button id ="firstb"> log in</button>
+        <button id ="secondb"> sign up</button>
+       
+            </div>   
+            </div>
+        </div>
+    
+    
+   </body>
+</html> 
